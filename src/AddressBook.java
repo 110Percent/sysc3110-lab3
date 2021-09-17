@@ -26,7 +26,10 @@ public class AddressBook {
      * @param args Unused
      */
     public static void main(String[] args) {
-        System.out.println("Address Book");
+        BuddyInfo buddy = new BuddyInfo("Tom", 25, "K1S5B6");
+        AddressBook addressBook = new AddressBook();
+        addressBook.addBuddy(buddy);
+        addressBook.removeBuddy(buddy);
     }
 
     /**
