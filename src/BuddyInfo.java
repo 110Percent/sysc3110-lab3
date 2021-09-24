@@ -1,16 +1,16 @@
 /**
  * SYSC 3110 A
  * Lab 1
- *
+ * <p>
  * Class to say "Hello" with a given name
  *
  * @author Curtis Davies, #101146353
  * @version 1.0
  */
 public class BuddyInfo {
-    private String name;
-    private Integer age;
-    private String postalCode;
+    private final String name;
+    private final Integer age;
+    private final String postalCode;
 
     /**
      * Initialize the object with a specified name
@@ -47,5 +47,13 @@ public class BuddyInfo {
      */
     public String getName() {
         return name;
+    }
+
+    /**
+     * Print the word "funny"
+     * Used to test the new Git branch
+     */
+    void printFunny() {
+        System.out.println("funny");
     }
 }
